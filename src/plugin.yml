@@ -1,0 +1,15 @@
+name: AreaCompressor
+version: 1.0
+author: RocketZ1
+main: me.RocketZ1.AreaCompressor.Main
+description: This plugin allows a player to compress an region into shulker boxes
+api-version: 1.16
+commands:
+  areawand:
+    description: This command gives the executing player the region select wand
+    aliases:
+      - aw
+  areacompressor:
+    description: This command compresses the players selected region
+    aliases:
+      - ac
