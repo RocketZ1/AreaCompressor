@@ -1,0 +1,16 @@
+#This sets a limit to the max amount of blocks that can be compressed at once. Use -1 for no limit.
+max-blocks-compressed: 1000
+
+#If this is enabled, all compressed shulkers will be put into a single shulker. -WARNING!- If you compress to many items into one shulker, it can cause problems and possible crashing.
+shulkers-in-shulkers: false
+
+#This limits how many blocks and itemframes will be rolled back per tick. The lower the number, less lag but longer the rollback takes!
+rollback-blocks-per-tick: 500
+
+#Blocks in this list will not be compressed when compressing an area. You do not need to add AIR, VOID_AIR, and CAVE_AIR since they are blacklisted by default.
+blacklisted-blocks:
+  - "BEDROCK"
+  - "COMMAND_BLOCK"
+  - "SPAWNER"
+  - "WATER"
+  - "LAVA"
